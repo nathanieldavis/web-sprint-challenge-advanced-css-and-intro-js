@@ -227,16 +227,21 @@ Create a function called `getArtistByIndex` that takes two arguments:
  * For example, if getArtistByIndex is invoked with the artists dataset and the number 0,
  * it will return `The artist at index 0 is Amedeo Modigliani`
 */
-// function getArtistByIndex(artists, id) {
-//     return (`The artist at index ${id} is ${artists} `);
-// return [artists]
-// }  
-// console.log(getArtistByIndex(artists[0]));
 
+let artistName = artists[0].name
+console.log(artistName);
 
-// function getArtistsByIndex(artists, index) {
-// }
-// getArtistsByIndex(artists, index)
+let indexZero = artists[0].id
+console.log(indexZero);
+
+function getArtistByIndex(id, name) {
+  
+  return (`The artist at index ${indexZero} is ${artistName}`);
+
+} 
+
+// getArtistByIndex([0], "");
+console.log(getArtistByIndex());
 
 
 
