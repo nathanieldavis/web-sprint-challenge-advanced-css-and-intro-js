@@ -153,4 +153,11 @@ button:hover{
     .title-container h1 {
       font-size:5rem;
     }
+    .artists-container{
+      flex-direction: column;
+    }
+    .artist{
+      width:100%;
+      margin: 0 auto;
+    }
 }
