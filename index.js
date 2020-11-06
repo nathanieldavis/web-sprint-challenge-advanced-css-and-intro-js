@@ -229,6 +229,7 @@ Create a function called `getArtistByIndex` that takes two arguments:
 */
 // function getArtistByIndex(artists, id) {
 //     return (`The artist at index ${id} is ${artists} `);
+// return [artists]
 // }  
 // console.log(getArtistByIndex(artists[0]));
 
